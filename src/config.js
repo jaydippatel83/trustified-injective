@@ -67,19 +67,19 @@ export const chainParams = [
 
 export const multiChains = [
   {
-    label: "Polygon Mumbai",
-    value: "mumbai",
-    image: "/assets/coin.png",
-    chainId: 80001,
-    priority: 0,
-  },
-  {
     label: "Injective",
     value: "injective",
     image: "/assets/logo/injective.webp",
     chainId: 1738,
     priority: 1,
   },
+  {
+    label: "Polygon Mumbai",
+    value: "mumbai",
+    image: "/assets/coin.png",
+    chainId: 80001,
+    priority: 0,
+  }
 ];
 
 export const fsize = [

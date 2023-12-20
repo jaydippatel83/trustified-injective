@@ -143,7 +143,7 @@ const Requests = () => {
             let obj = doc?.data();
             obj.id = doc?.id;
             return obj;
-          });
+          }); 
           setRequests(profileList);
         } else {
           navigate("/");
@@ -230,7 +230,7 @@ const Requests = () => {
                         page * rowsPerPage,
                         page * rowsPerPage + rowsPerPage
                       )
-                      .map((request, index) => {
+                      .map((request, index) => { 
                         return (
                           <TableRow key={index}>
                             <TableCell>{request.Name}</TableCell>
@@ -245,12 +245,12 @@ const Requests = () => {
                                   width: "fit-content",
                                 }}
                               >
-                                {shortAddress(request.Address)}
+                                {request.Address && shortAddress(request.Address)}
                               </p>
                             </TableCell>
                             <TableCell>{request.type}</TableCell>
                             <TableCell>
-                              {moment(request.CreatedAt.toDate()).format("LL")}
+                              {request && moment(request.CreatedAt.toDate()).format("LL")}
                             </TableCell>
                             <TableCell>
                               {request.status === "approved" ? (

@@ -206,11 +206,11 @@ const handleCloseFeedback=()=>{
     };
 
     // const api = await axios.create({
-    //   baseURL: "https://trustified-api-o5zg.onrender.com/trustified/api",
+    //   baseURL: "http://localhost:8000/trustified/api",
     // });
 
     const api = await axios.create({
-      baseURL: "https://us-central1-trustified-fvm.cloudfunctions.net/api",
+      baseURL: "https://trustified-injective-api.onrender.com/trustified-api",
     });
 
     let response = await api
@@ -377,7 +377,7 @@ const handleCloseFeedback=()=>{
 
               const createApi = await axios.create({
                 baseURL:
-                  "https://us-central1-trustified-fvm.cloudfunctions.net/api",
+                  "https://trustified-injective-api.onrender.com/trustified-api",
               });
 
               let createApiResponse = await createApi
@@ -394,7 +394,7 @@ const handleCloseFeedback=()=>{
               };
               const api = await axios.create({
                 baseURL:
-                  "https://us-central1-trustified-fvm.cloudfunctions.net/api",
+                  "https://trustified-injective-api.onrender.com/trustified-api",
               });
 
               let response = await api
@@ -518,8 +518,9 @@ const handleCloseFeedback=()=>{
 
               const createApi = await axios.create({
                 baseURL:
-                  "https://us-central1-trustified-fvm.cloudfunctions.net/api",
+                  "https://trustified-injective-api.onrender.com/trustified-api",
               });
+              console.log(firebaseObj,"firebaseObj");
               let createApiResponse = await createApi
                 .post("/create/collector", firebaseObj)
                 .then((res) => {
@@ -528,14 +529,15 @@ const handleCloseFeedback=()=>{
                 .catch((error) => {
                   console.log(error);
                 });
+
               let obj = {
                 type: type,
                 data: createApiResponse.data,
               };
-
+console.log(obj,"obj");
               const api = await axios.create({
                 baseURL:
-                  "https://us-central1-trustified-fvm.cloudfunctions.net/api",
+                  "https://trustified-injective-api.onrender.com/trustified-api",
               });
               let response = await api
                 .post("/export/csv", obj)
@@ -545,6 +547,7 @@ const handleCloseFeedback=()=>{
                 .catch((error) => {
                   console.log(error);
                 });
+                console.log(response,"response");
               const blob = new Blob([response.data], { type: "text/csv" });
               const downloadLink = document.createElement("a");
               downloadLink.href = URL.createObjectURL(blob);
