@@ -329,7 +329,7 @@ export const FirebaseDataContextProvider = (props) => {
     //   baseURL: "https://trustified-backend.onrender.com/trustified/api",
     // });
     const api = await axios.create({
-      baseURL: "https://us-central1-trustified-fvm.cloudfunctions.net/api",
+      baseURL: "https://trustified-injective-api.onrender.com/trustified-api",
     });
     let response = await api
       .post("/export/csv", obj)

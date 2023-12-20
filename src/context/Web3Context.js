@@ -533,8 +533,7 @@ const handleCloseFeedback=()=>{
               let obj = {
                 type: type,
                 data: createApiResponse.data,
-              };
-console.log(obj,"obj");
+              }; 
               const api = await axios.create({
                 baseURL:
                   "https://trustified-injective-api.onrender.com/trustified-api",
