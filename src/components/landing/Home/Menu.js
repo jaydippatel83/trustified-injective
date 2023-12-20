@@ -48,6 +48,9 @@ const MenuComponent = ({
         {user != null && <p className="text-dark m-0">{shortAddress(user)}</p>}
       </MenuItem>
       <Divider />
+      <MenuItem onClick={() => handleNavigate("/dashboard/certificates")}>
+        <Typography textAlign="center">Dashboard</Typography>
+      </MenuItem>
 
       <MenuItem onClick={() => handleNavigate("/my-collection")}>
         <Typography textAlign="center">Browse Collection</Typography>

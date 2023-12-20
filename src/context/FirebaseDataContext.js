@@ -280,37 +280,37 @@ export const FirebaseDataContextProvider = (props) => {
       if (type == "badge") {
         if (mode == "claimurl") {
           arr.push({
-            ClaimUrl: `https://trustified.xyz/claim/${claimers[i].claimToken}`,
+            ClaimUrl: `https://trustified-injective.vercel.app/claim/${claimers[i].claimToken}`,
           });
         } else {
           arr.push({
             address: claimers[i].claimerAddress,
-            ClaimUrl: `https://trustified.xyz/claim/${claimers[i].claimToken}`,
+            ClaimUrl: `https://trustified-injective.vercel.app/claim/${claimers[i].claimToken}`,
           });
         }
       } else {
         if (mode == "claimurl") {
           if (claimers[i].name == "") {
             arr.push({
-              ClaimUrl: `https://trustified.xyz/claim/${claimers[i].claimToken}`,
+              ClaimUrl: `https://trustified-injective.vercel.app/claim/${claimers[i].claimToken}`,
             });
           } else {
             arr.push({
               Name: claimers[i].name,
-              ClaimUrl: `https://trustified.xyz/claim/${claimers[i].claimToken}`,
+              ClaimUrl: `https://trustified-injective.vercel.app/claim/${claimers[i].claimToken}`,
             });
           }
         } else {
           if (claimers[i].name == "") {
             arr.push({
               address: claimers[i].claimerAddress,
-              ClaimUrl: `https://trustified.xyz/claim/${claimers[i].claimToken}`,
+              ClaimUrl: `https://trustified-injective.vercel.app/claim/${claimers[i].claimToken}`,
             });
           } else {
             arr.push({
               Name: claimers[i].name,
               address: claimers[i].claimerAddress,
-              ClaimUrl: `https://trustified.xyz/claim/${claimers[i].claimToken}`,
+              ClaimUrl: `https://trustified-injective.vercel.app/claim/${claimers[i].claimToken}`,
             });
           }
         }
