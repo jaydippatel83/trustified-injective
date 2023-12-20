@@ -72,7 +72,7 @@ function GetTitle({ tMsg, dMsg, net }) {
 
         <div className="d-flex justify-content-start">
           {multiChains
-            .filter((chain) => chain.priority === 0)
+            .filter((chain) => chain.priority === 1)
             .map((chainCom, i) => (
               <div
                 key={i}
@@ -113,7 +113,7 @@ function GetTitle({ tMsg, dMsg, net }) {
             ))}
 
 
-          {selectedChain.priority === 1 && (
+          {selectedChain.priority === 0 && (
             <div
               className="MuiButtonBase-root MuiChip-root jss160 MuiChip-outlined MuiChip-sizeSmall MuiChip-clickable chainChip"
               // tabindex="0"
