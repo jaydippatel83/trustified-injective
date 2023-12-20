@@ -73,7 +73,7 @@ export default function Claim() {
     } else if (network === "ethereumtestnet") {
       net = "ethereumtestnet";
     } else {
-      net = "bsc";
+      net = "injective";
     }
     return net;
   };
