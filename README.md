@@ -46,22 +46,37 @@ Ownership: Ensures true ownership of digital badges and certificates.
  <img width="1280" alt="Screenshot 2023-07-06 at 5 41 22 PM" src="https://github.com/jaydippatel83/trustified-patex/assets/45895007/f40dc40e-66c9-4489-b694-ea8bd92d74bf">
 
 # Certificate 
+ 
+<img width="1280" alt="Screenshot 2023-12-21 at 9 35 30 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/b388d17c-a2e3-4aee-afb7-63e08a1c316f">
+
+# Badges
+
+<img width="1280" alt="Screenshot 2023-12-21 at 9 35 41 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/4959c8f4-bd74-4b46-8bcf-5624267358b5">
 
   
 
-# Create Badge 
- 
+# Create Certificate 
+ <img width="1280" alt="Screenshot 2023-12-21 at 9 36 14 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/674548e9-02ef-4e7d-8a66-27f43b5fab91">
+<img width="1280" alt="Screenshot 2023-12-21 at 9 48 33 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/22595d7c-b547-4bbc-8c2c-0ef52aaefd1d">
+
+ <img width="1277" alt="Screenshot 2023-12-21 at 9 49 52 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/b8cf6d4f-da48-457b-9daf-be8e776c8d67">
+
+
 
 # NFT Lists 
- 
+ <img width="1280" alt="Screenshot 2023-12-21 at 9 35 30 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/27e10be8-1681-4e9e-9831-29b656415e22">
+
 
 
 # Collector List 
 
-<img width="1280" alt="Screenshot 2023-07-06 at 5 43 34 PM" src="https://github.com/jaydippatel83/trustified-patex/assets/45895007/d2d43028-17a7-41d8-a2fc-844c3678afb9">
+ <img width="1280" alt="Screenshot 2023-12-21 at 9 36 31 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/bf3c362d-6580-4f57-b88c-85535b5d58ed">
+
  
 # Claim page
- 
+  <img width="1280" alt="Screenshot 2023-12-21 at 9 36 49 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/2933476d-9678-4d72-8a7f-3baa016092e1">
 
-# Browse badges and certificates 
-<img width="1280" alt="Screenshot 2023-07-06 at 5 45 16 PM" src="https://github.com/jaydippatel83/trustified-patex/assets/45895007/1a3d20b4-2b06-46cb-9db5-4ff9f785c143">
+# Browse badges and certificates
+
+ 
+<img width="1280" alt="Screenshot 2023-12-21 at 9 37 04 AM" src="https://github.com/jaydippatel83/trustified-injective/assets/45895007/64ef7e5d-24b2-485a-b78c-90c97e6dd7cc">
